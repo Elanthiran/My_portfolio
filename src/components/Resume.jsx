@@ -16,7 +16,7 @@ const Resume = () => {
           <h1 className="text-decoration-underline mb-4">Resume</h1>
           <p>
             You can view my resume  
-            <a href="/path-to-resume.pdf" download className="btn btn-success ms-2">
+            <a href="https://elanthiranresume.netlify.app/My_Resume.pdf" download className="btn btn-success ms-2">
               View
             </a>
           </p>
