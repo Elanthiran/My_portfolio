@@ -1,78 +1,12 @@
-# 🌐 My Portfolio Website  
+# React + Vite
 
-Hi, I’m **K Elanthiran** 👋  
-This is my **personal portfolio website** built with **React, Bootstrap, and modern web technologies**.  
-It showcases my skills, projects, resume, and ways to get in touch with me.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Features  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🏠 **Home / Hero Section** – Quick intro with name & role.  
-- 👤 **About Me** – Background, journey, and skills.  
-- 💻 **Projects** – Showcases my best work (React, MERN, Full-Stack apps).  
-- 📄 **Resume** – Quick link to download my CV.  
-- 📞 **Contacts** – Email & phone for easy reach.  
-- 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop.  
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack  
-
-- **Frontend:** React, Bootstrap, CSS  
-- **Build Tool:** Vite  
-- **Deployment:** Netlify / Render  
-- **Version Control:** Git, GitHub  
-
----
-
-## 🚀 Getting Started  
-
-To run the project locally:  
-
-```bash
-# Clone the repository
-
-git clone https://github.com/Elanthiran/my_portfolio.git
-cd my_portfolio
-```
----
-
-# Install dependencies
-```bash
-npm install
-```
-
-# Run the development server
-```bash
-npm run dev
-```
-
----
-
-## 📂 Project Structure
-my_portfolio/
-│── public/          # Static files
-│── src/
-│   ├── assets/      # Images (hero, projects, resume, etc.)
-│   ├── components/  # Reusable React components
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Resume.jsx
-│   │   └── Contacts.jsx
-│   ├── App.jsx      # Main app file
-│   └── App.css      # Styles
-│── package.json     # Dependencies & scripts
-│── vite.config.js   # Vite configuration
-│── README.md        # Project info
-
----
-
-📧 Contact
-Email: elanthirank@gmail.com
-
-Phone: +91 6382079953
-
-LinkedIn: https://www.linkedin.com/in/elanthiran-k-92809b214 
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
